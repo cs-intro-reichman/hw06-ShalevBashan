@@ -135,7 +135,7 @@ public class Runigram {
 		for (int i = 0; i < n; i++){
 			alpha = (n - i)/n;
 			display(blend(source, scaledTarget, alpha));
-			StdDraw.pause(1000);
+			StdDraw.pause(500);
 		}
 	}
 	
